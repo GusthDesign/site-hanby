@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hanby – Gestão Ambiental e Inteligência de Dados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="imagens/logo-colorida.png" alt="Hanby" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="https://wa.me/5547999091254" target="_blank" rel="noopener" class="nav-cta">
+        <i class="fab fa-whatsapp"></i> Fale Conosco
+      </a>
+      <button class="nav-burger" id="navBurger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════
+       HERO — full-screen imersivo
+  ══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <!-- foto de fundo: cidade sustentável vista aérea -->
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1800&q=85&fit=crop"
+        alt="Cidade sustentável"
+      />
+    </div>
+
+    <!-- overlay em camadas -->
+    <div class="hero-overlay"></div>
+
+    <!-- conteúdo central -->
+    <div class="hero-body">
+      <div class="hero-center">
+        <img src="imagens/logo-branca.png" alt="Hanby" class="hero-logo" />
+        <div class="hero-tagline">Gestão Ambiental e Inteligência de Dados</div>
+        <h1>
+          INTELIGÊNCIA HOJE,<br>
+          <span>SUSTENTABILIDADE</span> PARA SEMPRE.
+        </h1>
+        <p>
+          Soluções ambientais completas para garantir conformidade,
+          reduzir riscos e impulsionar o <strong>crescimento sustentável</strong> da sua empresa.
+        </p>
+        <div class="hero-actions">
+          <a href="#servicos" class="btn-solid">Nossos Serviços</a>
+          <a href="https://wa.me/5547999091254" target="_blank" rel="noopener" class="btn-ghost">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- faixa de cards na base do hero -->
+    <div class="hero-bottom">
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-leaf"></i></div>
+        <div class="hcard-text">
+          <strong>Decisões Inteligentes</strong>
+          <span>com base em dados e responsabilidade.</span>
+        </div>
+      </div>
+      <div class="hcard-sep"></div>
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-shield-halved"></i></div>
+        <div class="hcard-text">
+          <strong>Conformidade</strong>
+          <span>que gera segurança e credibilidade.</span>
+        </div>
+      </div>
+      <div class="hcard-sep"></div>
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-chart-line"></i></div>
+        <div class="hcard-text">
+          <strong>Resultados</strong>
+          <span>que impulsionam o futuro do seu negócio.</span>
+        </div>
+      </div>
+      <div class="hcard-sep"></div>
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-earth-americas"></i></div>
+        <div class="hcard-text">
+          <strong>Sustentabilidade</strong>
+          <span>que protege o planeta e o seu negócio.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- seta scroll -->
+    <a href="#sobre" class="hero-scroll" aria-label="Rolar para baixo">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SOBRE — faixa com foto lateral
+  ══════════════════════════════════════ -->
+  <section class="sobre" id="sobre">
+    <div class="sobre-foto">
+      <!-- Foto: floresta + dados / natureza exuberante -->
+      <img
+        src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=80&fit=crop"
+        alt="Floresta preservada"
+      />
+      <div class="sobre-foto-overlay"></div>
+    </div>
+    <div class="sobre-texto">
+      <span class="sobre-tag">Quem Somos</span>
+      <h2>Gestão Ambiental com<br><strong>Inteligência de Dados</strong></h2>
+      <p>
+        A Hanby nasceu da convicção de que conformidade ambiental e crescimento empresarial
+        caminham juntos. Combinamos expertise técnica com análise de dados para entregar
+        soluções que protegem o meio ambiente e impulsionam o seu negócio.
+      </p>
+      <ul class="sobre-list">
+        <li><i class="fas fa-check-circle"></i> Equipe especializada em legislação ambiental</li>
+        <li><i class="fas fa-check-circle"></i> Processos ágeis e acompanhamento contínuo</li>
+        <li><i class="fas fa-check-circle"></i> Relatórios baseados em dados reais</li>
+        <li><i class="fas fa-check-circle"></i> Atendimento em todo o território nacional</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SERVIÇOS
+  ══════════════════════════════════════ -->
+  <section class="servicos" id="servicos">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-rule"></span>
+        <h2>NOSSOS SERVIÇOS</h2>
+        <span class="sec-rule"></span>
+      </div>
+
+      <div class="srv-grid">
+
+        <article class="srv-card">
+          <div class="srv-num">01</div>
+          <div class="srv-icon"><i class="fas fa-file-contract"></i></div>
+          <h3>Licença Ambiental de Operação</h3>
+          <p>Obtenção da licença necessária para a operação regular da sua atividade.</p>
+        </article>
+
+        <article class="srv-card">
+          <div class="srv-num">02</div>
+          <div class="srv-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Certidão de Conformidade Ambiental</h3>
+          <p>Comprovação de conformidade com a legislação ambiental vigente.</p>
+        </article>
+
+        <article class="srv-card">
+          <div class="srv-num">03</div>
+          <div class="srv-icon"><i class="fas fa-stamp"></i></div>
+          <h3>Autorização Ambiental</h3>
+          <p>Autorizações específicas para intervenções e atividades ambientais.</p>
+        </article>
+
+        <article class="srv-card">
+          <div class="srv-num">04</div>
+          <div class="srv-icon"><i class="fas fa-rotate"></i></div>
+          <h3>Renovação de Licença Ambiental</h3>
+          <p>Renovamos sua licença com agilidade e segurança, evitando interrupções.</p>
+        </article>
+
+        <article class="srv-card">
+          <div class="srv-num">05</div>
+          <div class="srv-icon"><i class="fas fa-seedling"></i></div>
+          <h3>PRAD</h3>
+          <p>Plano de Recuperação de Área Degradada — projetos para recuperação ambiental.</p>
+        </article>
+
+        <article class="srv-card">
+          <div class="srv-num">06</div>
+          <div class="srv-icon"><i class="fas fa-building-columns"></i></div>
+          <h3>IBAMA</h3>
+          <p>Regularização e acompanhamento de processos junto ao IBAMA.</p>
+        </article>
+
+        <article class="srv-card">
+          <div class="srv-num">07</div>
+          <div class="srv-icon"><i class="fas fa-truck"></i></div>
+          <h3>MTR – Manifesto de Transporte de Resíduos</h3>
+          <p>Emissão e gestão do MTR de forma correta e segura.</p>
+        </article>
+
+        <article class="srv-card">
+          <div class="srv-num">08</div>
+          <div class="srv-icon"><i class="fas fa-kit-medical"></i></div>
+          <h3>PGRSS</h3>
+          <p>Plano de Gerenciamento de Resíduos de Serviço e Saúde conforme RDC ANVISA nº 222/2018.</p>
+        </article>
+
+        <article class="srv-card">
+          <div class="srv-num">09</div>
+          <div class="srv-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+          <h3>Auditoria Ambiental</h3>
+          <p>Avaliação de conformidade e identificação de oportunidades para melhoria contínua.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       QUOTE — faixa com foto de fundo
+  ══════════════════════════════════════ -->
+  <section class="quote-band" id="diferenciais">
+    <!-- foto de fundo: vista aérea de floresta -->
+    <div class="quote-bg">
+      <img
+        src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1600&q=80&fit=crop"
+        alt="Vista aérea de floresta"
+      />
+    </div>
+    <div class="wrap quote-inner">
+      <div class="quote-mark">"</div>
+      <p>O futuro sustentável começa com<br><em>escolhas inteligentes hoje.</em></p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       NÚMEROS — impacto visual
+  ══════════════════════════════════════ -->
+  <section class="numeros">
+    <div class="numeros-bg">
+      <img
+        src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=1600&q=80&fit=crop"
+        alt="Natureza preservada"
+      />
+      <div class="numeros-overlay"></div>
+    </div>
+    <div class="wrap numeros-inner">
+      <div class="num-card">
+        <span class="num-val">+500</span>
+        <span class="num-label">Licenças emitidas</span>
+      </div>
+      <div class="num-divider"></div>
+      <div class="num-card">
+        <span class="num-val">100%</span>
+        <span class="num-label">Conformidade legal</span>
+      </div>
+      <div class="num-divider"></div>
+      <div class="num-card">
+        <span class="num-val">+10</span>
+        <span class="num-label">Anos de experiência</span>
+      </div>
+      <div class="num-divider"></div>
+      <div class="num-card">
+        <span class="num-val">+200</span>
+        <span class="num-label">Empresas atendidas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CTA — banner escuro com WhatsApp
+  ══════════════════════════════════════ -->
+  <section class="cta-section">
+    <div class="wrap cta-inner">
+      <div class="cta-left">
+        <img src="imagens/logo-branca.png" alt="Hanby" class="cta-logo" />
+        <p>
+          Conte com a <strong>Hanby</strong> para cuidar do que realmente importa:<br>
+          <span>O FUTURO DO PLANETA.</span>
+        </p>
+      </div>
+      <div class="cta-right">
+        <p class="cta-label">FALE CONOSCO</p>
+        <a href="https://wa.me/5547999091254" target="_blank" rel="noopener" class="cta-wa">
+          <i class="fab fa-whatsapp"></i>
+          <span>(47) 9 9909-1254</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer class="footer" id="contato">
+    <div class="wrap footer-grid">
+      <div class="f-item">
+        <i class="fas fa-location-dot"></i>
+        <div>
+          <p>Rua Miguel Cercal, 609</p>
+          <p>Joinville – SC &nbsp;|&nbsp; CEP: 89214-610</p>
+        </div>
+      </div>
+      <div class="f-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:hanby.ambiental@gmail.com">hanby.ambiental@gmail.com</a>
+      </div>
+      <div class="f-item">
+        <i class="fas fa-phone"></i>
+        <a href="tel:+5547999091254">(47) 9 9909-1254</a>
+      </div>
+      <div class="f-item">
+        <i class="fas fa-globe"></i>
+        <a href="https://www.hanbyambiental.com.br" target="_blank" rel="noopener">www.hanbyambiental.com.br</a>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>Gestão Responsável</span>
+      <i class="fas fa-leaf"></i>
+      <span>Resultados Inteligentes</span>
+      <i class="fas fa-leaf"></i>
+      <span>Futuro Sustentável</span>
+    </div>
+    <p class="footer-copy">© 2024 Hanby Gestão Ambiental e Inteligência de Dados. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
